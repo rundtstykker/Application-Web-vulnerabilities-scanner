@@ -13,10 +13,12 @@ Any inputs in the links_to_ignore variable in vul_scanner.py will be ignored.
 Use the data_dict variable in vul_scanner.py to allow scanner to use credentials to gain access to pages specified in the vulnerabilities_scanner.session.post variable
 
 ## Running the program
-Written in python 2.7, make sure to use the appropriate interrupter. 
+Written in python 2.7, make sure to use the appropriate interrupter.
 Specify the url in the target_url variable in vul_scanner.py
 To run the scanner
+```bash
 python vul_scanner.py
+```
 
 ## Attention
 Please do not use this program where unauthorized.
