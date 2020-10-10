@@ -1,6 +1,8 @@
 # Web-vulnerabilities-scanner
 A python 2.7 vulnerability scanner that can easily be customized to scan for specified vulnerabilities by replacing or adding strings to input fields. 
 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 ## Getting Started
 The vul_scanner.py will crawl and test input fields for XXS in links/forms and the simplest SQL injection of (password' or 1=1#) in forms. You should add more customized and complex inputs to make this program better. The input to test for vulnerability is stored as varibale and used as input to specified functions to test for vulnerabilities. This can easily be built upon. 
 
